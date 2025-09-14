@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2rem;
+  background: rgba(255,255,255,0.27);
+  backdrop-filter: blur(8px);
+  border-radius: 1rem;
+  margin-bottom: 2.5rem;
+  box-shadow: 0 2px 12px 0 rgba(31,38,135,0.14);
+}
+.brand {
+  font-size: 2rem;
+  font-weight: bold;
+  background: linear-gradient(90deg,#00ffa3,#dc1fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.tagline {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #1a1a1a;
+}
